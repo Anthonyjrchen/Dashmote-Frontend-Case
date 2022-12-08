@@ -7,8 +7,12 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@ant-design/icons-vue": "^6.1.0",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "serve": "^14.1.2",
+    "vue": "^3.2.13",
+    "vue-fullscreen": "^2.6.1",
+    "vue-mq": "^1.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
