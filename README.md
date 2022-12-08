@@ -1,19 +1,13 @@
 # code
+Open terminal and head to the unzipped folder
 
 ## Project setup
 ```
-npm install
+run this in terminal : npm install
+and run this in terminal : npm install serve
 ```
 
 ### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
