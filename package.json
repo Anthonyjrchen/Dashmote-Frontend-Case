@@ -1,18 +1,19 @@
 {
-  "homepage": "https://Anthonyjrchen.github.io/dashcase",
+  "homepage": "https://Anthonyjrchen.github.io/Dashmote-Frontend-Case",
   "name": "dashcase",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "deploy": "gh-pages -d dist",
-    "build": "vue-cli-service build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "vue-cli-service build"
   },
   "dependencies": {
     "@ant-design/icons-vue": "^6.1.0",
     "core-js": "^3.8.3",
     "serve": "^14.1.2",
-    "vue": "^3.2.13",
+    "vue": "^3.3.6",
     "vue-fullscreen": "^2.6.1",
     "vue-mq": "^1.0.1"
   },
